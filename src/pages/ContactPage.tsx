@@ -51,7 +51,6 @@ const ContactPage = () => {
             <div className="flex justify-between items-center h-16">
               <Link to="/" className="flex items-center space-x-2">
                 <Logo />
-                <span className="text-2xl font-bold text-blue-600">Quandax</span>
               </Link>
               
               <div className="hidden md:flex space-x-8">
@@ -59,9 +58,18 @@ const ContactPage = () => {
                 <Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link>
                 <Link to="/courses" className="text-gray-700 hover:text-blue-600">Courses</Link>
                 <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
-                <Link to="/login" className="text-gray-700 hover:text-blue-600">
-                  <i className="fas fa-user"></i>
-                </Link>
+                <Link 
+                                    to="/login" 
+                                    className="px-4 py-2 text-center text-blue-600 border border-blue-600 rounded hover:bg-blue-50"
+                                  >
+                                    Login
+                                  </Link>
+                                  <Link 
+                                    to="/register" 
+                                    className="px-4 py-2 text-center bg-blue-600 text-white rounded hover:bg-blue-700"
+                                  >
+                                    Register
+                                  </Link>
               </div>
 
               <button className="md:hidden">
