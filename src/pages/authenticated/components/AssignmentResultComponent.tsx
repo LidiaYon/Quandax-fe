@@ -1,6 +1,6 @@
 import React from 'react';
-import { IAssignmentSubmissionResult } from "@lidiayon/sharedlibs";
 import { X, Award } from 'lucide-react';
+import { IAssignmentSubmissionResult } from '../../../interfaces/IAssignment';
 
 interface AssignmentResultProps {
   result: IAssignmentSubmissionResult;

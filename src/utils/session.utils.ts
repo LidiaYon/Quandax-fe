@@ -1,4 +1,5 @@
-import { TokenPayload } from "@lidiayon/sharedlibs";
+import { TokenPayload } from "../interfaces/IAuth";
+
 const tokenName = import.meta.env.VITE_AUTH_TOKEN_NAME || "auth_token"
 
 

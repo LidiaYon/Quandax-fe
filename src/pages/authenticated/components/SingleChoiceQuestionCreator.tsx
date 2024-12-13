@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { PlusIcon, TrashIcon } from 'lucide-react';
-import { IAssignmentQuestion, IChoiceQuestionOptions, QuestionType } from '@lidiayon/sharedlibs';
 import { generateQuestionId } from '../../../utils/idGenerators';
+import { IAssignmentQuestion, IChoiceQuestionOptions } from '../../../interfaces/IAssignment';
+import { QuestionType } from '../../../types/common.types';
 
 interface SingleChoiceQuestionProps {
   onQuestionCreate: (question: IAssignmentQuestion) => void;

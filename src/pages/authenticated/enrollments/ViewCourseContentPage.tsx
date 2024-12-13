@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import MainLayout from "../MainLayout";
 import { useEffect, useState } from "react";
-import { ICourse, ICourseContent, IMaterialCompletion } from "@lidiayon/sharedlibs";
 import { showToast } from "../../../components/common/Toaster";
 import ServiceEnrollment from "../../../services/ServiceEnrollment";
 import { formatDate, getContentTypeLabel } from "../../../utils/common.utils";
@@ -9,6 +8,9 @@ import Modal from "../../../components/common/Modal";
 import MediaViewer from "../components/MediaViewer";
 import Button from "../../../components/common/Button";
 import FullScreenLoader from "../../../components/common/FullScreenLoader";
+import { ICourse } from "../../../interfaces/ICourse";
+import { IMaterialCompletion } from "../../../interfaces/IMaterialCompletion";
+import { ICourseContent } from "../../../interfaces/ICourseContent";
 
 
 const ViewCourseContentPage = () => {

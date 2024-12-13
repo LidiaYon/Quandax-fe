@@ -3,11 +3,11 @@ import Button from "../../../components/common/Button";
 import { ActionBar } from "../components/ActionBar";
 import MainLayout from "../MainLayout";
 import { useEffect, useState } from "react";
-import { IUser } from "@lidiayon/sharedlibs";
 import ServiceUser from "../../../services/ServiceUser";
 import { showToast } from "../../../components/common/Toaster";
 import { userHasPower } from "../../../utils/userPowers";
 import { useAppSelector } from "../../../store/hooks/hooks";
+import { IUser } from "../../../interfaces/IUser";
 
 const styles = {
   th: "px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase"

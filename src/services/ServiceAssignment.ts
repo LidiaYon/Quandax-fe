@@ -1,4 +1,4 @@
-import { IAssignment, IAssignmentSubmission, IAssignmentSubmissionResult } from '@lidiayon/sharedlibs';
+import { IAssignment, IAssignmentSubmission, IAssignmentSubmissionResult } from '../interfaces/IAssignment';
 import { EndPoints } from '../settings/EndPoints';
 import ServiceApi from './ServiceApi';
 

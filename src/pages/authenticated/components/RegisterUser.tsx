@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { IUserFormData } from "../../../interfaces/IUserFormData";
-import { RoleTypes } from "@lidiayon/sharedlibs";
 import Button from "../../../components/common/Button";
 import TextInput from "../../../components/common/TextInput";
 import { IValidationError } from "../../../interfaces/IValidationError";
 import ApiErrorDisplay from "../components/ApiErrorDisplay";
 import { showToast } from '../../../components/common/Toaster';
 import ServiceAuth from "../../../services/ServiceAuth";
+import { RoleTypes } from "../../../types/common.types";
 
 const initialFormData: IUserFormData = {
     email: '',

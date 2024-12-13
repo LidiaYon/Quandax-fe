@@ -1,7 +1,8 @@
-import { ILoginResponse, IUser } from '@lidiayon/sharedlibs';
 import { EndPoints } from '../settings/EndPoints';
 import ServiceApi from './ServiceApi';
 import { IUserFormData, IUserStatusFormData } from '../interfaces/IUserFormData';
+import { ILoginResponse } from '../interfaces/IAuth';
+import { IUser } from '../interfaces/IUser';
 
 
 

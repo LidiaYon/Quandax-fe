@@ -4,11 +4,13 @@ import GuestLayout from './GuestLayout';
 import TextInput from '../../components/common/TextInput';
 import HelperText from '../../components/common/HelperText';
 import Button from '../../components/common/Button';
-import { ILoginRequest, IUser, RoleTypes } from '@lidiayon/sharedlibs';
 import ServiceAuth from '../../services/ServiceAuth';
 import { useAppDispatch } from '../../store/hooks/hooks';
 import { setUser } from '../../store/features/userSlice';
 import { saveToken } from '../../utils/session.utils';
+import { ILoginRequest } from '../../interfaces/IAuth';
+import { IUser } from '../../interfaces/IUser';
+import { RoleTypes } from '../../types/common.types';
 
 export const LoginPage = () => {
     const [email, setEmail] = useState('');

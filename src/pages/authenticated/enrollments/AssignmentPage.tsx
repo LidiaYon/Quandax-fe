@@ -3,7 +3,6 @@ import Button from "../../../components/common/Button";
 import { ActionBar } from "../components/ActionBar";
 import MainLayout from "../MainLayout";
 import { useEffect, useState } from "react";
-import { IAssignment, IAssignmentQuestion, IAssignmentSubmission, IAssignmentSubmissionResult, QuestionType } from "@lidiayon/sharedlibs";
 import ServiceAssignment from "../../../services/ServiceAssignment";
 import { showToast } from "../../../components/common/Toaster";
 import { formatDate } from "../../../utils/common.utils";
@@ -11,6 +10,8 @@ import { useAppSelector } from "../../../store/hooks/hooks";
 import TextArea from "../../../components/common/TextArea";
 import AssignmentResultComponent from "../components/AssignmentResultComponent";
 import FullScreenLoader from "../../../components/common/FullScreenLoader";
+import { IAssignment, IAssignmentQuestion, IAssignmentSubmission, IAssignmentSubmissionResult } from "../../../interfaces/IAssignment";
+import { QuestionType } from "../../../types/common.types";
 
 
 

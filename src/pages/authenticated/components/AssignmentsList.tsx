@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import Button from "../../../components/common/Button";
 import { useEffect, useState } from "react";
-import { IAssignment } from "@lidiayon/sharedlibs";
 import { showToast } from "../../../components/common/Toaster";
 import { formatDate } from "../../../utils/common.utils";
 import ServiceAssignment from "../../../services/ServiceAssignment";
+import { IAssignment } from "../../../interfaces/IAssignment";
 
 interface IProps {
     caller: "courses" | "enrollments",

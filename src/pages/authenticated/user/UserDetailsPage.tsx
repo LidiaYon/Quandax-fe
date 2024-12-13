@@ -3,10 +3,10 @@ import Button from "../../../components/common/Button";
 import { ActionBar } from "../components/ActionBar";
 import MainLayout from "../MainLayout";
 import { useEffect, useState } from "react";
-import { IUser } from "@lidiayon/sharedlibs";
 import ServiceUser from "../../../services/ServiceUser";
 import { showToast } from "../../../components/common/Toaster";
 import FullScreenLoader from "../../../components/common/FullScreenLoader";
+import { IUser } from "../../../interfaces/IUser";
 
 
 

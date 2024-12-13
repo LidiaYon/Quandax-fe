@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import MainLayout from "../MainLayout";
 import { useEffect, useState } from "react";
-import { EnrollmentStatus, IEnrolledCoursesApiResponse } from "@lidiayon/sharedlibs";
 import { showToast } from "../../../components/common/Toaster";
 import ServiceEnrollment from "../../../services/ServiceEnrollment";
+import { IEnrolledCoursesApiResponse } from "../../../interfaces/apiResponses/IEnrolledCoursesApiResponse";
+import { EnrollmentStatus } from "../../../types/common.types";
 
 const styles = {
   th: "px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase",

@@ -3,7 +3,6 @@ import Button from "../../../components/common/Button";
 import { ActionBar } from "../components/ActionBar";
 import MainLayout from "../MainLayout";
 import { useEffect, useState } from "react";
-import { ICourse, ICourseContent } from "@lidiayon/sharedlibs";
 import { showToast } from "../../../components/common/Toaster";
 import ServiceCourse from "../../../services/ServiceCourse";
 import { userHasPower } from "../../../utils/userPowers";
@@ -12,6 +11,8 @@ import { formatDate, getContentTypeLabel } from "../../../utils/common.utils";
 import CourseContentForm from "../components/CourseContentForm";
 import Modal from "../../../components/common/Modal";
 import FullScreenLoader from "../../../components/common/FullScreenLoader";
+import { ICourse } from "../../../interfaces/ICourse";
+import { ICourseContent } from "../../../interfaces/ICourseContent";
 
 
 

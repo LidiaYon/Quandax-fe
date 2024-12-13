@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { IAssignmentQuestion, QuestionType } from '@lidiayon/sharedlibs';
 import { generateQuestionId } from '../../../utils/idGenerators';
+import { IAssignmentQuestion } from '../../../interfaces/IAssignment';
+import { QuestionType } from '../../../types/common.types';
 
 
 

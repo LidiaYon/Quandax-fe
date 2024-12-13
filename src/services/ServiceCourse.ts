@@ -1,7 +1,8 @@
-import { ICourse, ICourseContent } from '@lidiayon/sharedlibs';
 import { EndPoints } from '../settings/EndPoints';
 import ServiceApi from './ServiceApi';
 import { ICourseFormData } from '../interfaces/ICourseFormData';
+import { ICourse } from '../interfaces/ICourse';
+import { ICourseContent } from '../interfaces/ICourseContent';
 
 
 

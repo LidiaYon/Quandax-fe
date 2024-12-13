@@ -3,11 +3,11 @@ import Button from "../../../components/common/Button";
 import { ActionBar } from "../components/ActionBar";
 import MainLayout from "../MainLayout";
 import { useEffect, useState } from "react";
-import { ICourse } from "@lidiayon/sharedlibs";
 import { showToast } from "../../../components/common/Toaster";
 import { userHasPower } from "../../../utils/userPowers";
 import { useAppSelector } from "../../../store/hooks/hooks";
 import ServiceCourse from "../../../services/ServiceCourse";
+import { ICourse } from "../../../interfaces/ICourse";
 
 const styles = {
   th: "px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase",

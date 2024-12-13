@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { IUser } from '@lidiayon/sharedlibs';
+import { IUser } from '../../interfaces/IUser';
 
 interface UserState {
   user: Partial<IUser> | null;

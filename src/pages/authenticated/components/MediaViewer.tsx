@@ -1,6 +1,6 @@
 import React from 'react';
-import { ICourseContent } from '@lidiayon/sharedlibs';
 import { fullMediaURL } from '../../../utils/media.utils';
+import { ICourseContent } from '../../../interfaces/ICourseContent';
 
 interface IProps {
   media: ICourseContent;

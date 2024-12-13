@@ -1,8 +1,9 @@
-import { IForgotPasswordRequest, IForgotPasswordResponse, ILoginRequest, ILoginResponse, IUser } from '@lidiayon/sharedlibs';
 import { EndPoints } from '../settings/EndPoints';
 import {  deleteToken, isTokenValid } from '../utils/session.utils';
 import ServiceApi from './ServiceApi';
 import { IUserFormData } from '../interfaces/IUserFormData';
+import { IForgotPasswordRequest, IForgotPasswordResponse, ILoginRequest, ILoginResponse } from '../interfaces/IAuth';
+import { IUser } from '../interfaces/IUser';
 
 
 

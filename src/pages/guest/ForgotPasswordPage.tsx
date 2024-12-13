@@ -3,8 +3,8 @@ import GuestLayout from "./GuestLayout";
 import { FormEvent, useState } from "react";
 import Button from "../../components/common/Button";
 import TextInput from "../../components/common/TextInput";
-import { IForgotPasswordRequest } from "@lidiayon/sharedlibs";
 import ServiceAuth from "../../services/ServiceAuth";
+import { IForgotPasswordRequest } from "../../interfaces/IAuth";
 
 export const ForgotPasswordPage = () => {
     const [email, setEmail] = useState('');

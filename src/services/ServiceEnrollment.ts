@@ -1,7 +1,9 @@
-import { IAssignment, IEnrolledCourseContents, IEnrolledCoursesApiResponse, IEnrollment } from '@lidiayon/sharedlibs';
 import { EndPoints } from '../settings/EndPoints';
 import ServiceApi from './ServiceApi';
 import { IEnrollmentFormData, IUpdateEnrollmentProgressFormData } from '../interfaces/IEnrollmentFormData';
+import { IEnrolledCourseContents, IEnrolledCoursesApiResponse } from '../interfaces/apiResponses/IEnrolledCoursesApiResponse';
+import { IAssignment } from '../interfaces/IAssignment';
+import { IEnrollment } from '../interfaces/IEnrollment';
 
 
 

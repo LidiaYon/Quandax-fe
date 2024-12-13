@@ -1,4 +1,4 @@
-import { RoleTypes } from "@lidiayon/sharedlibs"
+import { RoleTypes } from "../types/common.types";
 
 /*
 what can users do

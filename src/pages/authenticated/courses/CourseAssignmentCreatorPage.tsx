@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 
 import SingleChoiceQuestionCreator from '../components/SingleChoiceQuestionCreator';
-import { IAssignment, QuestionType, IAssignmentQuestion } from '@lidiayon/sharedlibs';
 import { useParams } from 'react-router-dom';
 import MainLayout from '../MainLayout';
 import OpenEndedQuestionCreator from '../components/OpenEndedQuestionCreator';
@@ -10,6 +9,8 @@ import TextArea from '../../../components/common/TextArea';
 import { showToast } from '../../../components/common/Toaster';
 import ServiceAssignment from '../../../services/ServiceAssignment';
 import FullScreenLoader from '../../../components/common/FullScreenLoader';
+import { IAssignment, IAssignmentQuestion } from '../../../interfaces/IAssignment';
+import { QuestionType } from '../../../types/common.types';
 
 const intialState: IAssignment = {
   _id: "",

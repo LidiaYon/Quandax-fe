@@ -1,4 +1,4 @@
-import { MaterialTypes } from "@lidiayon/sharedlibs";
+import { MaterialTypes } from "../types/common.types";
 
 export const formatDate = (date: Date) => {
     return new Date(date).toLocaleDateString();
