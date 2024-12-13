@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "echo '@lidiayon:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${NPM_AUTH_TOKEN}' > .npmrc",
+    "prebuild": "echo '@lidiayon:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${VITE_NPM_AUTH_TOKEN}' > .npmrc",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
