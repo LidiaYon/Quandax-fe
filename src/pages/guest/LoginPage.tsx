@@ -80,20 +80,28 @@ export const LoginPage = () => {
             />
           </div>
   
-          <div className="flex items-center justify-end space-gap-x">
+        
+          <div className="flex items-center justify-between space-x-4">
             <Link 
-              to="/forgot-password" 
+              to="/" 
               className="text-sm font-medium text-blue-600 hover:text-blue-500"
             >
-              Forgot your password?
+              Back to Home
             </Link>
-
-            <Link 
-              to="/register" 
-              className="text-sm font-medium text-blue-600 hover:text-blue-500"
-            >
-              Register
-            </Link>
+            <div className="space-x-4">
+              <Link 
+                to="/forgot-password" 
+                className="text-sm font-medium text-blue-600 hover:text-blue-500"
+              >
+                Forgot password?
+              </Link>
+              <Link 
+                to="/register" 
+                className="text-sm font-medium text-blue-600 hover:text-blue-500"
+              >
+                Register
+              </Link>
+            </div>
           </div>
   
           <Button
